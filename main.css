@@ -1,0 +1,47 @@
+.attribution { 
+    font-size: 11px;
+    text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+body{
+    width: 1440px;
+    font-family: 'Outfit', sans-serif;
+    background-color:hsl(212, 45%, 89%)
+}
+#challenge{
+    background-color: white;
+    width: 270px;
+    height: 68vh;
+    border-radius: 20px;
+    text-align: center;
+   margin: 360px 360px 360px 560px;
+}
+h1{
+font-weight: 700;
+font-size: 20px;
+}
+p{
+    font-size: 15px;   
+    font-weight: 100;
+}
+img{
+    width: 250px;
+    height: 2ovh;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+  @media only screen and (max-width: 1445px) {
+    /* For mobile phones: */
+   body{
+      width: 375px;
+     
+    }
+}
+
+/* ## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
